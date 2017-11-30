@@ -18,4 +18,4 @@ A plugin for android developer, with the plugin you can generate "ButterKnife" c
 
 # 效果展示
 
-[ButterKnifeCode.gif](ButterKnifeCode.gif)
+![ButterKnifeCode.gif](ButterKnifeCode.gif)
