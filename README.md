@@ -19,3 +19,8 @@ A plugin for android developer, with the plugin you can generate "ButterKnife" c
 # 效果展示
 
 ![ButterKnifeCode.gif](ButterKnifeCode.gif)
+
+# 参考链接
+
+- [学会编写Android Studio插件 别停留在用的程度了](http://blog.csdn.net/lmj623565791/article/details/51548272)
+- [FindViewByMe](https://github.com/laobie/FindViewByMe)
