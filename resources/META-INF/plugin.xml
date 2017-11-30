@@ -1,0 +1,48 @@
+<idea-plugin>
+  <id>com.fqxyi.plugin.butter.knife.code</id>
+  <name>ButterKnifeCode</name>
+  <version>1.0.0</version>
+  <vendor email="fengqingxiuyi@gmail.com" url="https://github.com/fengqingxiuyi">风清袖一</vendor>
+
+  <description><![CDATA[
+      A plugin for android developer, with the plugin you can generate "ButterKnife" code quickly, For Example:<br>
+      In App Module : "@BindView(R.id.viewTest) LinearLayout viewTest"<br/>
+      In Library Module : "@BindView(R2.id.viewTest) LinearLayout viewTest"<br/>
+    ]]></description>
+
+  <change-notes><![CDATA[
+      <li>1. Support generate "ButterKnife" code in Code.</li>
+      <li>2. Support generate "ButterKnife" code in Layout.</li>
+    ]]>
+  </change-notes>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/build_number_ranges.html for description -->
+  <idea-version since-build="145.0"/>
+
+  <!-- please see http://www.jetbrains.org/intellij/sdk/docs/basics/getting_started/plugin_compatibility.html
+       on how to target different products -->
+  <!-- uncomment to enable plugin in all products
+  <depends>com.intellij.modules.lang</depends>
+  -->
+
+  <extensions defaultExtensionNs="com.intellij">
+    <!-- Add your extensions here -->
+  </extensions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="ButterKnifeCode" class="com.fqxyi.action.ButterKnifeCodeAction" text="ButterKnifeCode">
+      <add-to-group group-id="GenerateGroup"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl O"/>
+    </action>
+  </actions>
+
+  <actions>
+    <!-- Add your actions here -->
+    <action id="ButterKnifeCode_Xml" class="com.fqxyi.action.ButterKnifeCodeXmlAction" text="ButterKnifeCode（Xml）">
+      <add-to-group group-id="XmlGenerateToolsGroup" anchor="before" relative-to-action="GenerateDTD"/>
+      <keyboard-shortcut keymap="$default" first-keystroke="shift ctrl O"/>
+    </action>
+  </actions>
+
+</idea-plugin>
