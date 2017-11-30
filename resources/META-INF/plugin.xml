@@ -2,7 +2,7 @@
   <id>com.fqxyi.plugin.butter.knife.code</id>
   <name>ButterKnifeCode</name>
   <version>1.0.0</version>
-  <vendor email="fengqingxiuyi@gmail.com" url="https://github.com/fengqingxiuyi">风清袖一</vendor>
+  <vendor email="fengqingxiuyi@gmail.com" url="https://github.com/fengqingxiuyi/ButterKnifeCode">风清袖一</vendor>
 
   <description><![CDATA[
       A plugin for android developer, with the plugin you can generate "ButterKnife" code quickly, For Example:<br>
