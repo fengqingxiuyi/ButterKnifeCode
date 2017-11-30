@@ -6,8 +6,8 @@
 
   <description><![CDATA[
       A plugin for android developer, with the plugin you can generate "ButterKnife" code quickly, For Example:<br>
-      In App Module : "@BindView(R.id.viewTest) LinearLayout viewTest"<br/>
-      In Library Module : "@BindView(R2.id.viewTest) LinearLayout viewTest"<br/>
+      In App Module : "@BindView(R.id.view_test) LinearLayout viewTest"<br/>
+      In Library Module : "@BindView(R2.id.view_test) LinearLayout viewTest"<br/>
     ]]></description>
 
   <change-notes><![CDATA[

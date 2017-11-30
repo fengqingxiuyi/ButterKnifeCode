@@ -4,8 +4,8 @@
 
 A plugin for android developer, with the plugin you can generate "ButterKnife" code quickly, For Example:
 
-- In App Module : "@BindView(R.id.viewTest) LinearLayout viewTest"
-- In Library Module : "@BindView(R2.id.viewTest) LinearLayout viewTest"
+- In App Module : "@BindView(R.id.view_test) LinearLayout viewTest"
+- In Library Module : "@BindView(R2.id.view_test) LinearLayout viewTest"
 
 # 功能
 
