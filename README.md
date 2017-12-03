@@ -20,6 +20,8 @@ A plugin for android developer, with the plugin you can generate "ButterKnife" c
 
 ![ButterKnifeCode.gif](ButterKnifeCode.gif)
 
+如果觉得Gif图太小的话，可以看[这里](https://raw.githubusercontent.com/fengqingxiuyi/ButterKnifeCode/master/ButterKnifeCode.gif)
+
 # 参考链接
 
 - [学会编写Android Studio插件 别停留在用的程度了](http://blog.csdn.net/lmj623565791/article/details/51548272)
