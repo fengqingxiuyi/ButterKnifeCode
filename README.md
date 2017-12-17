@@ -18,9 +18,9 @@ A plugin for android developer, with the plugin you can generate "ButterKnife" c
 
 # 效果展示
 
-![ButterKnifeCode.gif](ButterKnifeCode.gif)
-
 如果觉得Gif图太小的话，可以看[这里](https://raw.githubusercontent.com/fengqingxiuyi/ButterKnifeCode/master/ButterKnifeCode.gif)
+
+![ButterKnifeCode.gif](ButterKnifeCode.gif)
 
 # 参考链接
 
